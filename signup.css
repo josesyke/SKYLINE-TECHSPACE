@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+*{
+
+
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+   text-decoration: none;
+    font-size: 20px;
+
+
+
+}
+
+.container{
+
+   display: flex;
+   background-color: gray;
+  justify-content: space-around;
+   height: 100px;
+  align-items: center;
+
+
+}
+/* 
+here is ul style design */
+
+
+.nav ul li{
+
+display: inline-block;
+
+
+}
+/* 
+here is my new */
+
+span.new{
+
+background-color: red;
+padding: 5px;
+font-size: 12px;
+border-radius: 4px;
+
+}
+
+.nav ul li a{
+
+color: aliceblue;
+padding: 0 8px;
+font-size: 15px;
+text-transform: capitalize;
+
+}
+
+
+.logo img{
+
+    width: 100px;
+
+}
+
+/* my login start here */
+
+
+.btn{
+
+    color: white;
+    font-size: 16px;
+    padding: 0px 10px;
+   
+
+}
+/*  
+login design start here */
+
+
+.btn-login{
+
+border: 1px white solid;
+padding: 3px 20px;
+border-radius: 5px;
+
+}
+
+.btn-login:hover{
+
+background-color: aliceblue;
+border: 2px red solid;
+
+}
+
+
+
+.btn-signup{
+
+    
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: rgb(6, 119, 231);
+
+}   
+
+/* all the menu header style ends here */
+
+
+.section{
+
+background-color: grey;
+padding: 40px;
+color: aliceblue;
+
+}
+
+.title{
+width: 60%;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.title h1{
+
+font-size: 50px;
+
+}   .title p{
+
+font-size: 20px;
+color: yellow;
+padding-bottom: 30px;
+
+}
+
+.btn-file{
+
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+.btn-find{
+
+background-color: blue;
+padding: 10px 30px;
+color: black;
+font-weight: bold;
+border-radius: 10px;
+
+}
+
+.img{
+
+    width: 50%;
+   margin: auto;
+
+
+}
+
+.img img{
+
+    width: 100%;
+   padding-top: 10px;
+
+}
+
+.fa-arrow-right:hover{
+
+transform: scale(1.2);
+}
+
+/* 
+my service menu start here */
+
+.service-menu{
+
+display: flex;
+
+
+
+}
+ 
+.service h1{
+
+    text-align: center;
+  font-size: 40px;
+  padding: 40px;
+}
+  
+.service{
+
+   width: 100%;
+   margin: auto;
+}
+
+.port{
+
+padding: 10px 20px;
+}
+
+
+.port > p:nth-last-of-type(2){
+font-size: 25px;
+color: yellow;
+font-weight: bold;
+
+
+}
+/* 
+here is my font */
+
+.fa-active{
+
+    font-size: 30px;
+}
+
+
+/* my portfolio container starts here */
+ 
+
+.portfolio{
+
+   background-color: dodgerblue;
+padding: 15px;
+}
+
+
+.portfolio-image img{
+
+width: 98%;
+height: 250px;
+}
+
+.portfolio-flex{
+
+   display: flex;
+}
+ 
+.portfolio-section{
+    
+    width: 90%;
+  padding: 0px 10px;
+
+}
+
+
+
+.portfolio h1{
+
+    text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+   color: white;
+   padding: 20px;
+}
+
+.portfolio-title{
+
+    background-color: gray;
+   width: 98%;
+  height: 270px;
+  margin-top: -25px;
+}
+
+.portfolio-title h1{
+
+padding: 40px;
+font-size: 25px;
+color: yellow;
+
+}
+
+
+
+
+.portfolio-title h2{
+
+    padding: 40px;
+   font-size: 25px;
+   color: yellow;
+
+}
+
+
+.portfolio-title p{
+
+
+   font-size: 20px;
+   color: white;
+   padding: 0px 5px;
+}
+
+
+.btn-portfolio{
+
+margin: 40px;
+
+
+}
+
+.G-port{
+
+    background-color: blue;
+    color: white;
+  padding: 10px 20px;
+   border-radius: 10px;
+
+}
+
+
+
+
+/* 
+portfolio container ends here */
+
+/* 
+my sunshine footer design start here */
+
+
+
+.sunshine{
+   
+    background-color: #110404de;
+    
+
+  }
+
+.sunshine-footer{
+
+display: flex;
+background-color: black;
+padding: 60px;
+color: white;
+font-size: 5px;
+height: 70vh; 
+position: relative;
+
+
+}
+
+
+
+.sunshine-footer h1{
+
+  color: yellow;
+}
+
+
+.sunshine{
+
+    display: flex;
+    padding: 50px;
+   align-items: center;
+   
+}
+
+
+.sunshine h1{
+   font-size: 50px;
+    color: lightblue;
+   
+}
+
+.link-sunshine{
+
+   background-color: dodgerblue; 
+  margin-left: 20%;
+  padding: 10px 10px;
+  color: black;
+  font-weight: bold;
+border-radius: 10px;
+
+}
+
+ .bottom ul li{
+
+    display: inline;
+  padding: 10px;
+  color: white;
+   font-size: 2px; */
+
+
+}
+/* 
+here is my hidden icon */
+
+.span1{
+
+display: none;
+
+}
+
+/* here is a code for my bar menu icon */
+
+.bar-menu{
+
+float: right;
+line-height: 65px;
+display: none;
+
+} 
+
+#check{
+
+  display: none;
+}
+
+/* here is my social media bottom */
+
+.bottom{
+
+position: absolute;
+top: 70%;
+padding-left: 10px;
+
+}
+
+ .line{
+
+  margin-left: 40px;
+ 
+
+}
+
+
+
+
+
+/* 
+    here is for my tablet design */
+
+@media screen and (max-width: 1050px){
+
+
+    .nav ul li a{
+
+  padding: 0px 4px;
+  
+        
+}
+
+.btn{
+
+   padding: 5px 8px;
+
+
+}
+
+.login{
+
+ margin-left: -30px;
+
+}
+
+
+  
+}
+
+
+/* here is for mobile phone design */
+
+@media (min-width: 500px) and (max-width: 860px ){
+
+.container{
+
+   flex-direction: column;
+   position: relative; 
+
+}
+    
+/* here is where my hidden icon display on mobile */
+
+.span1{
+
+display: inline;
+padding-right: 5px;
+
+}
+
+.span1 i{
+
+font-size: 10px;
+color: yellow;
+}
+
+
+.nav ul li{
+
+display: block;
+padding: 10px 0px;
+
+}
+
+.nav ul li{
+
+margin-left: 40px;
+
+}
+
+/* logo design */
+
+.logo img{
+
+  position: absolute;
+  top: 12px; 
+  left: 40%;
+ text-align: left;
+  /* border-radius: 20px; */
+
+}
+.login{
+
+margin-top: 30px 0px;
+
+    
+}
+
+.menu{
+
+background-color: blue;
+width: 80%;
+position: absolute;
+top: 80%;
+height: 60vh;
+right: 8%;
+left: -100%;
+text-align: left;
+border-radius: 20px;
+transition: 1.5s;
+
+}
+
+
+
+/* 
+here is my bar menu icon */
+
+.bar-menu{
+
+  display: block;
+   position: absolute;
+   top: 40%;
+  color: white;
+  right: 10%;
+   cursor: pointer;
+
+
+}
+ 
+
+  .bar-menu i{
+
+    font-size: 30px;
+  }
+
+
+#check:checked ~ ul{
+
+left: 8%;
+
+}
+
+.title{
+
+  width: 100%;
+}
+
+.title h1{
+
+  font-size: 35px;
+}
+
+.title p{
+
+font-size: 20px;
+line-height: 1.4rem;
+}
+
+.img{
+
+width: 100%;
+
+}
+
+.service h1{
+
+  font-size: 25px;
+padding: 10px 0px;
+
+}
+
+.service-menu{
+  display: inline-block;
+  text-align: center;
+  height: 40vh;
+}
+
+.fa-active{
+
+  font-size: 80px;
+}
+
+.portfolio h1{
+
+padding: 20px 0px;
+
+}
+
+
+.portfolio-title p{
+
+padding: 10px 0px;
+
+}
+
+.portfolio-flex{
+
+  flex-direction: column;
+}
+
+.portfolio-section{
+
+width: 100%;
+text-align: center;
+padding: 20px 5px;
+
+
+}
+.sunshine{
+
+flex-direction: column;
+
+}
+ .sunshine h1{
+
+ font-size: 30px;
+ }
+
+.link-sunshine{
+
+  padding: 10px 10px;
+  margin-top: 10px;
+  margin-left: 1px;
+}
+
+.portfolio-title{
+font-size: 20px;
+text-align: center;
+}
+
+.sunshine-footer{
+height: 200vh;
+padding: 1px 2px;
+display: inline-block;
+width: 120vh;
+}
+
+.bottom{
+   margin-bottom: 30px;
+  padding: 5px 20px;
+  top: 90%;
+}
+
+
+
